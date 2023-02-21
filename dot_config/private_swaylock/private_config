@@ -1,0 +1,36 @@
+# indicator
+# no-unlock-indicator
+# daemonize
+indicator-caps-lock
+# datestr=%A
+image=$HOME/Pictures/wallpapers/spacehole.png
+scaling=fill
+font=Hack
+font-size=30
+
+# Radius 115
+indicator-radius=120
+#############################################
+
+### Normal
+text-color=#FDC6FF
+inside-color=#000000
+line-color=#000000
+ring-color=#000000
+key-hl-color=#CF7A74
+separator-color=#CF7A74
+
+### Verifying
+text-ver-color=#FDC6FF
+inside-ver-color=#000000
+line-ver-color=#000000
+ring-ver-color=#000000
+
+### Wrong
+text-wrong-color=#CF7A74
+inside-wrong-color=#000000
+line-wrong-color=#000000
+ring-wrong-color=#000000
+
+# Nothing
+layout-text-color=#000000
