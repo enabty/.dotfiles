@@ -26,4 +26,4 @@ abbr -a grm 'git rm'
 abbr -a gcl 'git clone'
 abbr -a gf 'git fetch'
 abbr -a gb 'git branch'
-
+abbr -a gcma 'git commit --amend -m'
