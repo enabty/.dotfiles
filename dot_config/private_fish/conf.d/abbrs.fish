@@ -15,7 +15,14 @@ abbr -a cm 'chezmoi'
 abbr -a epath 'echo $PATH'
 
 # Git
-abbr -a gc 'git commit -m "'
-abbr -a gp 'git push -u origin main'
+abbr -a gcm 'git commit -m'
+abbr -a gpush 'git push -u origin main'
 abbr -a gs 'git status'
-abbr -a gp 'git pull'
+abbr -a gpull 'git pull'
+abbr -a ga 'git add'
+abbr -a gd 'git diff'
+abbr -a grm 'git rm'
+abbr -a gcl 'git clone'
+abbr -a gf 'git fetch'
+abbr -a gb 'git branch'
+
