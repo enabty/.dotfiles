@@ -10,6 +10,7 @@ abbr -a nts 'cd ~/nts/'
 # Apps
 abbr -a cat 'bat'
 abbr -a cm 'chezmoi'
+abbr -a cpick 'hyprpicker'
 
 # Echoes
 abbr -a epath 'echo $PATH'
