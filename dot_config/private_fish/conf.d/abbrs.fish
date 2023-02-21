@@ -13,3 +13,9 @@ abbr -a cm 'chezmoi'
 
 # Echoes
 abbr -a epath 'echo $PATH'
+
+# Git
+abbr -a gc 'git commit -m "'
+abbr -a gp 'git push -u origin main'
+abbr -a gs 'git status'
+abbr -a gp 'git pull'
