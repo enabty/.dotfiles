@@ -16,10 +16,11 @@ abbr -a epath 'echo $PATH'
 
 # Git
 abbr -a gcm 'git commit -m'
-abbr -a gpush 'git push -u origin main'
+abbr -a gpush 'git push -u origin'
 abbr -a gs 'git status'
 abbr -a gpull 'git pull'
 abbr -a ga 'git add'
+abbr -a gaa 'git add .'
 abbr -a gd 'git diff'
 abbr -a grm 'git rm'
 abbr -a gcl 'git clone'
