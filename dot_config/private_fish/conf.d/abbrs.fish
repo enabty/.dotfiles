@@ -28,3 +28,6 @@ abbr -a gcl 'git clone'
 abbr -a gf 'git fetch'
 abbr -a gb 'git branch'
 abbr -a gcma 'git commit --amend -m'
+
+# Poetry
+abbr -a por 'poetry run python'
