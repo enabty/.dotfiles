@@ -173,6 +173,7 @@ lvim.plugins = {
   { 'wfxr/minimap.vim' },
   { 'decaycs/decay.nvim',                 as = 'decay' },
   { 'wuelnerdotexe/vim-enfocado' },
+  { 'toppair/peek.nvim',                  run = 'deno task --quiet build:fast' },
 }
 
 
@@ -215,3 +216,5 @@ require('neoscroll').setup()
 require 'colorizer'.setup()
 
 -- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Minimap %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+vim.api.nvim_create_user_command('PeekOpen', require('peek').open, {})
+vim.api.nvim_create_user_command('PeekClose', require('peek').close, {})
