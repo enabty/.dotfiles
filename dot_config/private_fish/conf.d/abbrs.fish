@@ -31,3 +31,4 @@ abbr -a gcma 'git commit --amend -m'
 
 # Poetry
 abbr -a por 'poetry run python'
+abbr -a paa 'poetry run python main.py'
