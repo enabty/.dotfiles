@@ -1,16 +1,21 @@
 # System specific functions
 abbr -a ls 'exa'
+abbr -a rmrf 'rm -rf'
+
 # Navigation
 abbr -a dlds 'cd ~/Downloads/'
 abbr -a docs 'cd ~/Documents/'
 abbr -a pics 'cd ~/Pictures/'
 abbr -a desk 'cd ~/Desktop/'
 abbr -a nts 'cd ~/nts/'
+abbr -a prts 'cd ~/Pictures/screens'
+
 
 # Apps
 abbr -a cat 'bat'
 abbr -a cm 'chezmoi'
 abbr -a cpick 'hyprpicker'
+abbr -a kalk 'kalker-linux'
 
 # Echoes
 abbr -a epath 'echo $PATH'
@@ -28,6 +33,9 @@ abbr -a gcl 'git clone'
 abbr -a gf 'git fetch'
 abbr -a gb 'git branch'
 abbr -a gcma 'git commit --amend -m'
+abbr -a grmd 'git rm $(git ls-files --deleted)'
+abbr -a gl 'git log --oneline'
+abbr -a gc 'git checkout'
 
 # Poetry
 abbr -a por 'poetry run python'
