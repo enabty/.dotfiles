@@ -220,9 +220,7 @@ bindsym $mod+r mode "resize"
 #
 # Screenshots
 #
-    bindsym print exec /usr/share/sway/scripts/grimshot --notify save output
-    bindsym Shift+print exec ~/.config/sway/scripts/screenshot.sh
-#
-# Keybindings List
-#
-    bindsym $mod+t exec xed ~/.config/sway/cheatsheet
+    # bindsym print exec /usr/share/sway/scripts/grimshot --notify save output
+    # bindsym Shift+print exec ~/.config/sway/scripts/screenshot.sh
+    bindsym Ctrl+Shift+x exec grim -g "$(slurp)" - | swappy -f -
+
