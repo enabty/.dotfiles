@@ -16,6 +16,7 @@ abbr -a cat 'bat'
 abbr -a cm 'chezmoi'
 abbr -a cpick 'hyprpicker'
 abbr -a kalk 'kalker-linux'
+abbr -a jj 'z'
 
 # Echoes
 abbr -a epath 'echo $PATH'
