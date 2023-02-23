@@ -13,7 +13,6 @@ abbr -a prts 'cd ~/Pictures/screens'
 
 # Apps
 abbr -a cat 'bat'
-abbr -a cm 'chezmoi'
 abbr -a cpick 'hyprpicker'
 abbr -a kalk 'kalker-linux'
 abbr -a jj 'z'
@@ -41,3 +40,11 @@ abbr -a gc 'git checkout'
 # Poetry
 abbr -a por 'poetry run python'
 abbr -a paa 'poetry run python main.py'
+
+# Chezmoi
+abbr -a cm 'chezmoi'
+abbr -a cme 'chezmoi edit'
+abbr -a cmadd 'chezmoi add'
+abbr -a cmapp 'chezmoi apply -v'
+abbr -a cmcd 'chezmoi cd'
+abbr -a cmdi 'chezmoi diff'
