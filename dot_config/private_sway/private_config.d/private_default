@@ -214,8 +214,8 @@ bindsym $mod+r mode "resize"
 #
 # App shortcuts
 #
-    bindsym $mod+p exec thunar
-    bindsym $mod+o exec firefox 
+    bindsym $mod+o exec thunar
+    bindsym $mod+p exec firefox 
     bindsym $mod+z exec bitwarden-desktop
     bindsym $mod+n exec qutebrowser
 #
