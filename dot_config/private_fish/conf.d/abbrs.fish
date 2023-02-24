@@ -1,6 +1,7 @@
 # System specific functions
 abbr -a ls 'exa'
 abbr -a rmrf 'rm -rf'
+abbr -a exg 'exa -al | grep'
 
 # Navigation
 abbr -a dlds 'cd ~/Downloads/'
@@ -16,6 +17,7 @@ abbr -a cat 'bat'
 abbr -a cpick 'hyprpicker'
 abbr -a kalk 'kalker-linux'
 abbr -a jj 'z'
+abbr -a tt 'timetrace'
 
 # Echoes
 abbr -a epath 'echo $PATH'
@@ -32,10 +34,13 @@ abbr -a grm 'git rm'
 abbr -a gcl 'git clone'
 abbr -a gf 'git fetch'
 abbr -a gb 'git branch'
-abbr -a gcma 'git commit --amend -m'
-abbr -a grmd 'git rm $(git ls-files --deleted)'
+abbr -a gcma 'git commit --amend -m'  # Rename last commit
+abbr -a grmd 'git rm $(git ls-files --deleted)'  # Remove deleted files from both index and working dir
 abbr -a gl 'git log --oneline'
 abbr -a gc 'git checkout'
+abbr -a grc 'git reset --soft HEAD~1'  # Undo last commit
+abbr -a gra 'git reset'  # Undo last add command (All or file)
+
 
 # Poetry
 abbr -a por 'poetry run python'
