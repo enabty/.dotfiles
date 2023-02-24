@@ -48,3 +48,14 @@ abbr -a cmadd 'chezmoi add'
 abbr -a cmapp 'chezmoi apply -v'
 abbr -a cmcd 'chezmoi cd'
 abbr -a cmdi 'chezmoi diff'
+
+# Tree
+abbr -a tree1 'tree -L 1'
+abbr -a tree2 'tree -L 2'
+abbr -a tree3 'tree -L 3'
+
+# QoL
+abbr -a aedit 'chezmoi edit ~/.config/fish/conf.d/abbrs.fish'
+
+# Todos
+abbr -a clust 'bat ~/nts/patches/poetry_pytorch.md'
