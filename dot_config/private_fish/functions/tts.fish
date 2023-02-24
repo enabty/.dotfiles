@@ -4,7 +4,9 @@ function tts
   set -f tracked_time_today (echo $status_output | jq -r '.trackedTimeToday')
   set -f tracked_time_current (echo $status_output | jq -r '.trackedTimeCurrent')
 
+  echo "********************************"
   echo "Current project: $project"
   echo "Worked today: $tracked_time_today"
   echo "Worked on current task: $tracked_time_current"
+  echo "********************************"
 end
