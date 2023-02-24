@@ -62,6 +62,9 @@ abbr -a tree3 'tree -L 3'
 
 # QoL
 abbr -a aedit 'chezmoi edit ~/.config/fish/conf.d/abbrs.fish'
+abbr -a h2 "eval (history | head -n2 | tail -n1 | sed 's/^[ ]*[0-9]*[ ]*//')"
+abbr -a hh "commandline -i (history | head -n2 | tail -n1 | sed 's/^[ ]*[0-9]*[ ]*//')"
+
 
 # Todos
 abbr -a clust 'bat ~/nts/patches/poetry_pytorch.md'
