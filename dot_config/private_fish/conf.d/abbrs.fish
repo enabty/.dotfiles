@@ -60,6 +60,7 @@ abbr -a cmappv 'chezmoi apply -v'
 abbr -a cmapp 'chezmoi apply'
 abbr -a cmcd 'chezmoi cd'
 abbr -a cmdi 'chezmoi diff'
+abbr -a vii 'chezmoi edit'
 
 # Tree
 abbr -a tree1 'tree -L 1'
