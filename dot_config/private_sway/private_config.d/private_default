@@ -218,7 +218,11 @@ bindsym $mod+r mode "resize"
     bindsym $mod+p exec firefox 
     bindsym $mod+z exec bitwarden-desktop
     bindsym $mod+n exec qutebrowser
-#
+    bindsym $mod+i exec swaymsg "[class=qutebrowser] focus"  # swaymsg -t get_tree 
+    bindsym $mod+u exec swaymsg "[app_id=chat-gpt] focus"  # swaymsg -t get_tree 
+
+
+
 # Screenshots
 #
     # bindsym print exec /usr/share/sway/scripts/grimshot --notify save output
