@@ -1,7 +1,7 @@
 # System specific functions
-abbr -a ls 'exa'
+abbr -a ls 'lsd'
 abbr -a rmrf 'rm -rf'
-abbr -a exg 'exa -al | grep'
+abbr -a exg 'lsd -al | grep'
 
 # PS
 abbr -a psm10 'ps -eo pid,ppid,cmd,comm,%mem,%cpu --sort=-%mem | head -10'
