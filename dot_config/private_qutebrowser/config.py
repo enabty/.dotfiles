@@ -17,7 +17,7 @@ config.load_autoconfig(True)
 ## Aliases for commands. The keys of the given dictionary are the
 ## aliases, while the values are the commands they map to.
 ## Type: Dict
-# c.aliases = {'w': 'session-save', 'q': 'close', 'qa': 'quit', 'wq': 'quit --save', 'wqa': 'quit --save'}
+# c.aliases = {'w': 'session-save', 'q': 'close', 'qa': 'quit', 'wq': 'quit --save', 'wqa': 'quit --save', 'ö': 'open -b'}
 
 # ## Time interval (in milliseconds) between auto-saves of
 # ## config/cookies/etc.
@@ -31,7 +31,7 @@ config.load_autoconfig(True)
 # ## session which was last loaded. This behavior can be customized via the
 # ## `session.default_name` setting.
 # ## Type: Bool
-# c.auto_save.session = False
+c.auto_save.session = True
 
 # ## Backend to use to display websites. qutebrowser supports two different
 # ## web rendering engines / backends, QtWebEngine and QtWebKit (not
@@ -2198,7 +2198,7 @@ config.bind('K', 'tab-next')
 # config.bind('L', 'forward')
 # config.bind('M', 'bookmark-add')
 # config.bind('N', 'search-prev')
-# config.bind('O', 'set-cmd-text -s :open -t')
+config.bind('O', 'set-cmd-text -s :open -b')
 # config.bind('Pp', 'open -t -- {primary}')
 config.bind('PP', 'open -t -- {clipboard}')
 # config.bind('R', 'reload -f')
