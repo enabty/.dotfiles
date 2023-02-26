@@ -10,3 +10,6 @@ set PATH $PATH /home/abty/.local/bin
 
 # Global Enviroment Variables
 set -gx EDITOR lvim
+set -gx BROWSER qutebrowser
+
+# Inits
