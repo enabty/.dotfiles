@@ -2076,6 +2076,10 @@ c.url.default_page = 'about:blank'
 # ## Type: Dict
 
 c.url.searchengines = {'DEFAULT': 'https://www.google.com/search?hl=en&safe=off&num=50&pws=0&q={}'}
+c.url.searchengines['a'] = 'https://wiki.archlinux.org/?search={}'
+c.url.searchengines['gh'] = 'https://github.com/search?q={}&type=Code'
+c.url.searchengines['aur'] = 'https://www.archlinux.org/packages/?sort=&q={}'
+c.url.searchengines['ab'] = 'https://bugs.archlinux.org/?project=5&string={}'
 
 ## Page(s) to open at the start.
 ## Type: List of FuzzyUrl, or FuzzyUrl
