@@ -1,7 +1,13 @@
 # System specific functions
-abbr -a ls 'lsd'
 abbr -a rmrf 'rm -rf'
+
+# LS/LSD
+abbr -a ls 'lsd'
+abbr -a lss 'clear && lsd'
+abbr -a ls1 'lsd -1'
+abbr -a lsa 'lsd -a'
 abbr -a exg 'lsd -al | grep'
+abbr -a lsl 'lsd -l'
 
 # PS
 abbr -a psm10 'ps -eo pid,ppid,cmd,comm,%mem,%cpu --sort=-%mem | head -10'
@@ -16,7 +22,6 @@ abbr -a pics 'cd ~/Pictures/'
 abbr -a desk 'cd ~/Desktop/'
 abbr -a nts 'cd ~/nts/'
 abbr -a prts 'cd ~/Pictures/screens'
-
 
 # Apps
 abbr -a cat 'bat'
