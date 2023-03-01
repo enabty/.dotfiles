@@ -21,6 +21,8 @@ function yayy
     else
         set -f output_str "Package $package not found."
     end
+  else if test "$action" = "verbose"
+    cat $yayy_file
   else
       yay $argv
   end
@@ -28,5 +30,6 @@ function yayy
     echo "Done.."
     echo $output_str
     echo (tail -n 1 $yayy_file)
+    echo "Don't forget to <cmapp>"
   end
 end
