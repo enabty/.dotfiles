@@ -11,5 +11,6 @@ set PATH $PATH /home/abty/.local/bin
 # Global Enviroment Variables
 set -gx EDITOR lvim
 set -gx BROWSER qutebrowser
+set -gx _JAVA_AWT_WM_NONREPARENTING 1
 
 # Inits
