@@ -30,6 +30,7 @@ function yayy
     echo "Done.."
     echo $output_str
     echo (tail -n 1 $yayy_file)
-    echo "Don't forget to <cmapp>"
+    chezmoi add $yayy_file
+    chezmoi diff 
   end
 end
