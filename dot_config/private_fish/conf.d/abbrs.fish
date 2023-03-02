@@ -22,6 +22,8 @@ abbr -a pics 'cd ~/Pictures/'
 abbr -a desk 'cd ~/Desktop/'
 abbr -a nts 'cd ~/nts/'
 abbr -a prts 'cd ~/Pictures/screens'
+abbr -a ... 'cd ../../'
+abbr -a .... 'cd ../../../'
 
 # Apps
 abbr -a cat 'bat'
